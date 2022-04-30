@@ -7,7 +7,7 @@ function Navbar() {
     const [ nav,setNav]= useState(false);
     const handleclick =()=> setNav(!nav);
   return (
-    <div className=' fixed w-full h-[60px] flex justify-between items-center px-4 bg-white text-fuchsia-900 mb-12 '>
+    <div className=' fixed w-full h-[60px] flex justify-between items-center px-4 bg-white text-fuchsia-900 mb-12 shadow-lg shadow-slate-300'>
         <div>
             <h1 className='w-[50px] font-black text-lg '>LA</h1>
         </div>
