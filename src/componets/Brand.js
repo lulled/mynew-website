@@ -12,7 +12,7 @@ function Brand() {
                     <h1 className=' text-[45px] text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-700 leading-none md:text-[100px] font-bold py-2'>
                         Create a brand & sell anything
                     </h1>
-                    <p className='text-slate-700 mt-5 py- md:mx-20 md:px-20 text-[20px]  font-thin font-poppins '>
+                    <p className='text-slate-700 mt-5 py- md:mx-20 md:px-20 text-[20px]  font-light font-poppins '>
                    Spin-up your own Brand and practically sell anything, whether you're just starting out or a mature business we gonna get u covered.
                     </p>
                     <img src={Brandi} alt='' className=''/>

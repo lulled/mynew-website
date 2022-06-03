@@ -14,7 +14,7 @@ const handleClick = (i)=>{
     return(
         <div>
             <section className=''>
-            <div className='mx-2  md:mx-40 md:px-40 items-center justify-center'>
+            <div className='mx-4 px-4 md:mx-40 md:px-40 items-center justify-center'>
             <div className='text-left  md:'>
                     <h2 className='font-small text-[30px] text-slate-800 md:text-[70px] leading-none'>Lets start now <br/>with quick start</h2>
                      
@@ -26,11 +26,11 @@ const handleClick = (i)=>{
 
                 
                 {Data.map((items,i)=>(
-                    <div className='md:mx-10 px-4 '>
+                    <div className='mx md:mx-10 '>
                         
                         <div onClick={()=> handleClick(i)}
-                         className='text-[30px] text-slate-800 inline-block px-6 '>{Toggle === i ? '-':'+'}
-                            <div className='text-[25px] text-slate-800 inline-block px-6 '>
+                         className='text-[30px] text-slate-800 inline-block  '>{Toggle === i ? '-':'+'}
+                            <div className='text-[25px] text-slate-800 inline-block px-4 '>
                                 <h2>{items.key}</h2>
                             </div>
                             <div className={Toggle === i ?' w-[] text-[20px] text-slate-800 px-8   md:w-[500px] h-full font-thin font-bodoni':'hidden'}>
