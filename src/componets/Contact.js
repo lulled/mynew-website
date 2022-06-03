@@ -4,20 +4,20 @@ import {FaWhatsappSquare,FaPhoneAlt}from "react-icons/fa"
 function Contact() {
   return (
     <div className='w-full  flex flex-col justify-center items-center  p-6'>
-       <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
+       <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[1000px] w-full'>
             <div className=' flex flex-col justify-center items-center w-full p-6'>
                 <h3 className='text-4xl font-bold inline border-b-4 border-lime-600 text-fuchsia-700 '>Contact</h3>
                 <p className='text-slate-500 py-4'>Let's talk about your next project </p>
-              <section className='flex flex-col justify-center align-center w-full my-10 md:flex-wrap'>
+              <section className='flex flex-col justify-center align-center w-full my-10 lg:flex-wrap'>
                 <div className=' flex items-center flex-wrap justify-center w-full my-4 gap-4  '>
-                  <a href='#' className='w-full md:w-auto px-3 md:px-8 py-5 border border-slate-400 rounded-md hover:border-lime-900
+                  <a href='#' className='w-full md:w-auto px-3 md:px-8 py-5 border  border-slate-400 shadow-md shadow-slate-400 rounded-md hover:border-lime-900
                    duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3'>
                      <FaWhatsappSquare className='text-lime-500 text-[60px] cursor-poniter '/>
                      <p className='text-lg text-slate-500'>Whatsup</p>
                    </a>
                 </div>
                 <div className=' flex items-center flex-wrap justify-center w-full my-4 gap-4 '>
-                  <a href='#' className='w-full md:w-auto px-3 md:px-8 py-5 border border-slate-400 rounded-md hover:border-lime-900
+                  <a href='#' className='w-full md:w-auto px-3 md:px-8 py-5 border border-slate-400  shadow-slate-400 shadow-inner rounded-md hover:border-lime-900
                    duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3'>
                      <FaPhoneAlt className='text-lime-500 text-[60px] cursor-poniter '/>
                      <p className='text-lg text-slate-500'>Call Me</p>

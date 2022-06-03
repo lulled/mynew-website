@@ -8,7 +8,7 @@ function Footer() {
     <div>
        <div className='flex items-center justify-center text-slate-400 py-2'>powered by</div>
          <div className='flex flex-col items-center justify-center '>
-         <ul className=' flex  flex-wrap gap-4'>
+         <ul className=' flex   gap-4'>
            <li>
            <img className='w-[40px] h-[40px]'src={Tailwind} alt=''/>
            </li>

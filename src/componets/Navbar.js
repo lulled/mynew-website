@@ -1,15 +1,16 @@
 import React from 'react'
 import{useState} from 'react'
 import {FaBars ,FaTimes} from 'react-icons/fa';
-
+import Frame1 from '../images/frame1.svg';
 
 function Navbar() {
     const [ nav,setNav]= useState(false);
     const handleclick =()=> setNav(!nav);
   return (
-    <div className=' fixed w-full h-[60px] flex justify-between items-center px-4 bg-white text-fuchsia-900 mb-12 shadow-lg shadow-slate-300'>
-        <div>
-            <h1 className='w-[50px] font-black text-lg '>LA</h1>
+    <div className=' fixed w-full h-[66px] flex justify-between items-center px-4 bg-white text-slate-600 mb-12 shadow-lg shadow-slate-300'>
+        <div className='  flex gap-15 justify-items-start  pl-4'>
+            <img className=' w-[300px] h-[200px] items-left pb-4' src={Frame1} alt=""/>
+            
         </div>
       {/*main menu */}
             <ul className='hidden md:flex'>
@@ -19,7 +20,7 @@ function Navbar() {
             </ul>
             {/*humberg */}
             <div onClick={handleclick} className='md:hidden z-10'>
-             {!nav ? <FaBars /> : <FaTimes />}
+             {!nav ? <FaBars className=' text-slate-700 w-[30px] h-[30px]'/> : <FaTimes className='text-slate-700 w-[30px] h-[30px]' />}
             </div>
 
 
