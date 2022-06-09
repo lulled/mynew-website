@@ -7,7 +7,7 @@ function Navbar() {
     const [ nav,setNav]= useState(false);
     const handleclick =()=> setNav(!nav);
   return (
-    <div className=' fixed w-full h-[66px] flex justify-between items-center px-4 bg-white text-slate-600 mb-12 shadow-lg shadow-slate-300'>
+    <div className=' fixed w-full h-[66px] flex justify-between items-center px-4 bg-white opacity-95  text-slate-600 mb-12 shadow-lg shadow-slate-300'>
         <div className='  flex gap-15 justify-items-start  pl-4'>
             <img className=' w-[300px] h-[200px] items-left pb-4' src={Frame1} alt=""/>
             
