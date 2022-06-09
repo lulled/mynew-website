@@ -7,7 +7,7 @@ import Github from '../images/github.png'
 import Mongodbb from '../images/mongodbb.png'
 function Skills() {
   return (
-    <div className='flex flex-col  justify-center items-center w-full md:w-[1300px] h-full lg:w-full  '>
+    <div className='container flex flex-col  justify-center items-center w-full  h-full   '>
         <div className='  mx-auto p-4  justify-center items-center   '>
             <p className='  text-4xl font-bold inline text-fuchsia-600 border-b-4 border-lime-600'>
                 Skills & Tools

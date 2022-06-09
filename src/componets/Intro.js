@@ -2,7 +2,7 @@ import React from 'react'
 import Dev from '../images/dev.png'
 function Intro() {
   return (
-    <div name='' className=' flex flex-col w-full h-full bg-white p-4 lg:w-full '>
+    <div name='' className=' container flex flex-col w-full h-full bg-white p-4 lg:w-full '>
       {/*main container */}
       <div className='justify-center items-center mt-16 flex flex-col w-full h-full'>
 

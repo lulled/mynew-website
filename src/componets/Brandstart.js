@@ -12,7 +12,7 @@ const handleClick = (i)=>{
     setToggle(i)
 }
     return(
-        <div>
+        <div className='container mx-2'>
             <section className=''>
             <div className='mx-4 px-4 md:mx-40 md:px-40 items-center justify-center'>
             
@@ -26,7 +26,7 @@ const handleClick = (i)=>{
                     <div className=' w-1/2 h-full mx  md:mx-10 '>
                         
                         <div onClick={()=> handleClick(i)}
-                         className='w-full text-[30px] text-slate-800 inline-block  '>{Toggle === i ? '-':'+'}
+                         className='w-full text-[25px] text-slate-800 inline-block  '>{Toggle === i ? '-':'+'}
                             <div className='text-[25px] text-slate-800 inline-block px-4 '>
                                 <h2>{items.key}</h2>
                             </div>
@@ -42,6 +42,26 @@ const handleClick = (i)=>{
 
                     </div>
                    </div> 
+                   <div className='md:m-[30px]'>
+                       <h2 className='  text-center text-[30px] font-light text-cyan-500'>Our quick start Package</h2>
+                       <ul className='  '> 
+                           <li>
+                           <div className='md:flex'>
+                            <div className='  w-full md:m-10 md:w-[400px] md:h-full flex flex-col text-center items-center justify-center rounded-[30px] bg-slate-100'>
+                             <div>
+                              <img className='md:w-[400px] h-[300px] rounded-t-[30px]' src={Quickstart} alt=''/>
+                            </div>
+                            <div className=' flex-col text-center  '>
+                            <h2 className='text-rose-600 font-bold text-[35px] mt-4 '>Some bricks</h2>
+                              <p className='text-rose-400 px-12 py-2 pb-8 font-thin '>our team will study ur idea and propose a business model and strategy by diving deeper into ur target-market and competion ,we will find a white space and create a name as unique as  ur idea </p>
+                             </div>
+                              </div>
+       
+
+                           </div>
+                           </li>
+                       </ul>
+                   </div>
             
             </section>
         </div>
