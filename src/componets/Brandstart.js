@@ -26,7 +26,7 @@ const handleClick = (i)=>{
                     <div className=' w-1/2 h-full mx  md:mx-10 '>
                         
                         <div onClick={()=> handleClick(i)}
-                         className='text-[30px] text-slate-800 inline-block  '>{Toggle === i ? '-':'+'}
+                         className='w-full text-[30px] text-slate-800 inline-block  '>{Toggle === i ? '-':'+'}
                             <div className='text-[25px] text-slate-800 inline-block px-4 '>
                                 <h2>{items.key}</h2>
                             </div>
