@@ -16,7 +16,7 @@ function App() {
       <Brandstart />
       <Intro />
       <Skills />
-      <Contact />
+      
       <Footer />
 
     </div>

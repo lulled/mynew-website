@@ -7,13 +7,13 @@ import Github from '../images/github.png'
 import Mongodbb from '../images/mongodbb.png'
 function Skills() {
   return (
-    <div className='container flex flex-col  justify-center items-center w-full  h-full   '>
+    <div className='container flex flex-col  justify-center items-center    '>
         <div className='  mx-auto p-4  justify-center items-center   '>
             <p className='  text-4xl font-bold inline text-fuchsia-600 border-b-4 border-lime-600'>
                 Skills & Tools
             </p>
         </div>
-        <div className=' flex flex-col justify-center items-center w-full  md:w-full h-full p-6 flex-wrap'>
+        <div className=' flex flex-col justify-center items-center    h-full p-6 flex-wrap'>
         <div className=' w-full grid grid-cols-2 px-5 py-8 sm:grid-cols-4 justify-center items-center  gap-4 text-center '>
             <div className=' shadow-lg rounded-md shadow-slate-300 hover:scale-110 duration-500'>
                <img className='w-20 mx-auto  ' src={Rreact} alt=''/>
